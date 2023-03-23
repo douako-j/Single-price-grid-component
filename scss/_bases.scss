@@ -1,0 +1,34 @@
+/*===== Reset =====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*===== Base =====*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--soft-blue);
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: var(--karla-font);
+  background-color: var(--light-gray);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}

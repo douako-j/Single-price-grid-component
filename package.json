@@ -1,0 +1,30 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "description": "A HTML CSS challenge from Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douako-j/Single-price-grid-component.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "RESPONSIVE",
+    "MOBILE-FIRST",
+    "CHALLENGE"
+  ],
+  "author": "Jordan DOUAKOUTCHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douako-j/Single-price-grid-component/issues"
+  },
+  "homepage": "https://github.com/douako-j/Single-price-grid-component#readme",
+  "dependencies": {
+    "sass": "^1.59.3"
+  }
+}

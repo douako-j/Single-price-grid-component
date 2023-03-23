@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --karla-font: "Karla", sans-serif;
+  --white: #fff;
+  --cyan: #2ab3b1;
+  --bright-green: #c0df33;
+  --grayish-blue: #9aa7be;
+  --light-gray: #e6eff5;
+}
+
+/*===== Reset =====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*===== Base =====*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--soft-blue);
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: var(--karla-font);
+  background-color: var(--light-gray);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Landscape phones and down */
+/* Landscape phone to portrait tablet */
+/* Portrait tablet to landscape and desktop */
+/*====== Main ======*/
+.main {
+  width: 100%;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.main .container {
+  width: 31.1rem;
+  height: 72.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  box-shadow: 0 1.5rem 3rem rgba(0, 81, 171, 0.148847);
+}
+.main .container .join {
+  padding: 2.8rem 2.4rem 3.2rem;
+}
+.main .container .join h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  letter-spacing: -0.025rem;
+  color: var(--cyan);
+  margin-bottom: 2.4rem;
+}
+@media (min-width: 768px) {
+  .main .container .join h1 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.03rem;
+  }
+}
+.main .container .join h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--bright-green);
+  letter-spacing: -0.01875rem;
+  margin-bottom: 1.6rem;
+}
+@media (min-width: 768px) {
+  .main .container .join h2 {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.0225rem;
+    margin-bottom: 1.1rem;
+  }
+}
+.main .container .join p {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: var(--grayish-blue);
+  letter-spacing: -0.0175rem;
+}
+@media (min-width: 768px) {
+  .main .container .join p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.02rem;
+  }
+}
+@media (min-width: 768px) {
+  .main .container .join {
+    padding: 4rem;
+  }
+}
+.main .container .sub__container {
+  width: 100%;
+  max-height: 45.5rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  background-color: var(--cyan);
+}
+.main .container .sub__container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: -0.0225rem;
+  margin-bottom: 1.8rem;
+}
+.main .container .sub__container .subscription {
+  padding: 2.4rem;
+}
+.main .container .sub__container .subscription .price {
+  display: flex;
+  align-items: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  letter-spacing: -0.04rem;
+  margin-bottom: 0.4rem;
+}
+.main .container .sub__container .subscription .price span {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.02rem;
+  opacity: 0.5;
+  margin-left: 1.1rem;
+}
+.main .container .sub__container .subscription .desc {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.02rem;
+  margin-bottom: 2.6rem;
+}
+.main .container .sub__container .subscription .btn {
+  width: 100%;
+  padding: 1.5rem 0 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.9rem;
+  letter-spacing: -0.02rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: var(--bright-green);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.0973011);
+}
+@media (min-width: 768px) {
+  .main .container .sub__container .subscription {
+    padding: 4rem;
+    width: 50%;
+  }
+}
+.main .container .sub__container .why {
+  padding: 2.4rem;
+  background: rgba(255, 255, 255, 0.15);
+}
+.main .container .sub__container .why ul li {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: -0.0175rem;
+  opacity: 0.75;
+}
+@media (min-width: 768px) {
+  .main .container .sub__container .why {
+    padding: 4rem;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .main .container .sub__container {
+    flex-direction: row;
+    height: 25.9rem;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .main .container {
+    width: 63.5rem;
+    height: 47.5rem;
+    border-radius: 0.8rem;
+  }
+}
+
+/*====== Footer ======*/
+.footer {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
